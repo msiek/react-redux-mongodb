@@ -19,6 +19,9 @@ export default class Todo extends React.Component {
        {todoState.todo && !todoState.isFetching &&
          <div>
            <h3>{todoState.todo.todoText}</h3>
+           <h3>{todoState.todo.firstName}</h3>
+           <h3>{todoState.todo.lastName}</h3>
+           <h3>{todoState.todo.address}</h3>
            <p>{todoState.todo.todoDesc}</p>
          </div>
        }

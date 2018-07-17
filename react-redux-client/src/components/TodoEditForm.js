@@ -15,6 +15,30 @@ const TodoEditForm = (props) => {
               name="todoText" defaultValue={props.todoData.todoText}
                />
         </FormGroup>
+        <FormGroup>
+          <ControlLabel>First Name: </ControlLabel>
+          <input type="hidden" value={props.todoData._id} name="id"/>
+            <FormControl
+              type="text" placeholder="Enter your First Name"
+              name="firstName" defaultValue={props.todoData.firstName}
+               />
+        </FormGroup>
+        <FormGroup>
+          <ControlLabel>Last Name: </ControlLabel>
+          <input type="hidden" value={props.todoData._id} name="id"/>
+            <FormControl
+              type="text" placeholder="Enter your Last Name"
+              name="lastName" defaultValue={props.todoData.lastName}
+               />
+        </FormGroup>
+        <FormGroup>
+          <ControlLabel>Address: </ControlLabel>
+          <input type="hidden" value={props.todoData._id} name="id"/>
+            <FormControl
+              type="text" placeholder="Enter your Address"
+              name="address" defaultValue={props.todoData.address}
+               />
+        </FormGroup>
         </div>
         <div className="col-md-12">
         <FormGroup>

@@ -23,6 +23,9 @@ export default class App extends React.Component {
       if(form.todoText.value !== ""  && form.todoDesc.value !== ""){
         const data = new FormData();
        data.append('todoText', form.todoText.value);
+       data.append('firstName', form.firstName.value);
+       data.append('lastName', form.lastName.value);
+       data.append('address', form.address.value);
        data.append('todoDesc', form.todoDesc.value);
         // const data = {
         //   todoText: form.todoText.value,

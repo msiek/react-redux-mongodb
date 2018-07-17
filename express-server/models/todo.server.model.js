@@ -6,6 +6,9 @@ const Schema = mongoose.Schema({
     default: Date.now
   },
   todoText: String,
+  firstName: String,
+  lastName: String,
+  address: String,
   todoDesc: String
 });
 

@@ -17,6 +17,33 @@ const TodoForm = (props) => {
         </FormGroup>
         </div>
         <div className="col-md-12">
+    <FormGroup>
+          <ControlLabel>First Name: </ControlLabel>
+            <FormControl
+              type="text" placeholder="Enter your First Name"
+              name="firstName"
+               />
+        </FormGroup>
+        </div>
+        <div className="col-md-12">
+    <FormGroup>
+          <ControlLabel>Last Name: </ControlLabel>
+            <FormControl
+              type="text" placeholder="Enter your Last Name"
+              name="lastName"
+               />
+        </FormGroup>
+        </div>
+        <div className="col-md-12">
+    <FormGroup>
+          <ControlLabel>Address: </ControlLabel>
+            <FormControl
+              type="text" placeholder="Enter your Address"
+              name="address"
+               />
+        </FormGroup>
+        </div>
+        <div className="col-md-12">
         <FormGroup>
               <ControlLabel>Description: </ControlLabel>
                 <FormControl
